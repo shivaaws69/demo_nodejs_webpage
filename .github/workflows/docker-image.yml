@@ -16,7 +16,7 @@ jobs:
       - name: Build and Push Docker Image
         run: |
           DOCKER_USERNAME=shivaaws69
-          DOCKER_PASSWORD='dckr_pat_xxxxxxxxxxxxxxxxx'
+          DOCKER_PASSWORD= 'dckr_pat_-Q2PitIFrBPrHBqRAfcM9qiShts'
 
           echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
 
